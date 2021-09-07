@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/searchdata/sdk/version"
+require_relative "lib/searchdata_sdk/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "searchdata-sdk"
-  spec.version       = Searchdata::Sdk::VERSION
+  spec.name          = "searchdata_sdk"
+  spec.version       = SearchdataSdk::VERSION
   spec.authors       = ["Raluca Penciuc"]
   spec.email         = ["penciuc.raluca@yahoo.com"]
 

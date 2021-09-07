@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in searchdata-sdk.gemspec
+# Specify your gem's dependencies in searchdata_sdk.gemspec
 gemspec
 
 gem "rake", "~> 13.0"
