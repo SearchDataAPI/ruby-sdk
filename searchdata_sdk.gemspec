@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Ruby SDK for SearchData API."
   spec.description   = "SearchData is a REST API that collects any kind of data from search engines and transforms it" \
-                       " into a complete data toolkit for every team in your company. This SDK for Ruby makes the usage of the API easier" \
-                       " to implement in any project you have."
+                       " into a complete data toolkit for every team in your company. This SDK for Ruby makes the" \
+                       " usage of the API easier to implement in any project you have."
   spec.homepage      = "https://github.com/SearchDataAPI/searchdata_sdk"
   spec.required_ruby_version = ">= 3.0.0"
 

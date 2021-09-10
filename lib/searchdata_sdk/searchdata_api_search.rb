@@ -7,6 +7,7 @@ GOOGLE_ENGINE = "google"
 BING_ENGINE = "bing"
 YANDEX_ENGINE = "yandex"
 
+# Abstract HTTP client for api.searchdata.io
 class SearchDataAPISearch
   MAIN_API = "api.searchdata.io"
   MAIN_API_PATH = "/v1"
