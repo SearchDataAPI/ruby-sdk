@@ -12,3 +12,6 @@
 
 # IDE
 /.idea/
+
+#env
+env/local.env

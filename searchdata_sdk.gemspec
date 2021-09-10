@@ -9,9 +9,11 @@ Gem::Specification.new do |spec|
   spec.email         = ["penciuc.raluca@yahoo.com"]
 
   spec.summary       = "Ruby SDK for SearchData API."
-  spec.description   = "SearchData is a REST API that collects any kind of data from search engines and transforms it into a complete data toolkit for every team in your company."
+  spec.description   = "SearchData is a REST API that collects any kind of data from search engines and transforms it" \
+                       " into a complete data toolkit for every team in your company. This SDK for Ruby makes the usage of the API easier" \
+                       " to implement in any project you have."
   spec.homepage      = "https://github.com/SearchDataAPI/searchdata_sdk"
-  spec.required_ruby_version = ">= 2.4.0"
+  spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'https://mygemserver.com'"
 
@@ -32,6 +34,10 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_dependency "dotenv"
+  spec.add_dependency "json"
+  spec.add_dependency "open-uri"
+  spec.add_development_dependency "rspec", "~> 3.2"
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html

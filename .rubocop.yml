@@ -1,5 +1,8 @@
 AllCops:
-  TargetRubyVersion: 2.4
+  TargetRubyVersion: 3.0
+
+Style/EndOfLine:
+  EnforcedStyle: lf
 
 Style/StringLiterals:
   Enabled: true
