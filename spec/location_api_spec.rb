@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-require_relative '../lib/searchdata_sdk/google_search'
+require_relative "../lib/searchdata_sdk/google_search"
 
 RSpec.describe "Location API" do
-
   before(:all) do
     GoogleSearch.api_key = nil
   end
@@ -22,5 +21,4 @@ RSpec.describe "Location API" do
     expect(first_location["Target Type"]).to eq("City")
     expect(first_location["Status"]).to eq("Active")
   end
-
 end

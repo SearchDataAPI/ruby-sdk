@@ -43,7 +43,7 @@ class SearchDataAPISearch
   def get_location
     @params.delete(:engine)
     @params.delete(:api_key)
-    JSON.parse(get_results(LOCATIONS_API, ''))
+    JSON.parse(get_results(LOCATIONS_API, ""))
   end
 
   def get_json
