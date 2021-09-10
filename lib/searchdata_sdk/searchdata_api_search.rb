@@ -40,6 +40,12 @@ class SearchDataAPISearch
     raise "missing required keys in params.\n #{missing.join(",")}" unless missing.empty?
   end
 
+  def get_location
+    @params.delete(:engine)
+    @params.delete(:api_key)
+    JSON.parse(get_results(LOCATIONS_API, ''))
+  end
+
   def get_json
     get_results(MAIN_API, MAIN_API_PATH)
   end
