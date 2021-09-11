@@ -4,8 +4,7 @@ require_relative "../lib/searchdata_sdk/google_search"
 
 RSpec.describe "Searchdata SDK Abstract Class" do
   before(:all) do
-    # SearchDataAPISearch.api_key = ENV['API_KEY']
-    SearchDataAPISearch.api_key = "TEZkIjyG5okVaryM65d2luZ1WuXbgRCU"
+    SearchDataAPISearch.api_key = ENV['API_KEY']
     @request = SearchDataAPISearch.new({ q: "Coffee", engine: "google" })
   end
 

@@ -1,14 +1,10 @@
 # frozen_string_literal: true
 
-require "dotenv"
 require_relative "../lib/searchdata_sdk/google_search"
-
-Dotenv.load("../env/local.env")
 
 RSpec.describe "Google Search API" do
   before(:all) do
-    # GoogleSearch.api_key = ENV["API_KEY"]
-    GoogleSearch.api_key = "TEZkIjyG5okVaryM65d2luZ1WuXbgRCU"
+    GoogleSearch.api_key = ENV["API_KEY"]
     @request = GoogleSearch.new(q: "coffee")
   end
 

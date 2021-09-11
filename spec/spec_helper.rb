@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 require "searchdata_sdk"
+require "dotenv"
+Dotenv.load("env/local.env")
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

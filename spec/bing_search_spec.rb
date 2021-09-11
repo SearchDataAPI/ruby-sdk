@@ -1,14 +1,10 @@
 # frozen_string_literal: true
 
-require "dotenv"
 require_relative "../lib/searchdata_sdk/bing_search"
-
-Dotenv.load("../env/local.env")
 
 RSpec.describe "Bing Search API" do
   before(:all) do
-    # BingSearch.api_key = ENV["API_KEY"]
-    BingSearch.api_key = "TEZkIjyG5okVaryM65d2luZ1WuXbgRCU"
+    BingSearch.api_key = ENV["API_KEY"]
     @request = BingSearch.new(q: "coffee")
   end
 

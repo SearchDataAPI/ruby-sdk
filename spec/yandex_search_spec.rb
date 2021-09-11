@@ -1,14 +1,10 @@
 # frozen_string_literal: true
 
-require "dotenv"
 require_relative "../lib/searchdata_sdk/yandex_search"
-
-Dotenv.load("../env/local.env")
 
 RSpec.describe "Yandex Search API" do
   before(:all) do
-    # YandexSearch.api_key = ENV["API_KEY"]
-    YandexSearch.api_key = "TEZkIjyG5okVaryM65d2luZ1WuXbgRCU"
+    YandexSearch.api_key = ENV["API_KEY"]
     @request = YandexSearch.new(text: "coffee")
   end
 
