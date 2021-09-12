@@ -14,6 +14,7 @@ Gem::Specification.new do |spec|
                        " usage of the API easier to implement in any project you have."
   spec.homepage      = "https://github.com/SearchDataAPI/searchdata_sdk"
   spec.required_ruby_version = ">= 3.0.0"
+  spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'https://mygemserver.com'"
 
