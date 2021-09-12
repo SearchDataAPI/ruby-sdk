@@ -47,6 +47,8 @@ exit 0
 
 Alternatively, check the [examples](https://github.com/SearchDataAPI/ruby-sdk/tree/main/examples) folder for more code samples, including Yandex and Bing classes.
 
+For a better understanding of the parameters, please check out our [documentation](https://app.searchdata.io/documentation/getting-started).
+
 ## Development
 
 After checking out the repo, run `bin/setup` or `bundle install` to install dependencies. 

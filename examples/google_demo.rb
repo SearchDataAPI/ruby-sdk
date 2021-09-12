@@ -2,10 +2,8 @@
 
 require "searchdata_sdk"
 
-raise "API_KEY environment variable must be set" if ENV["API_KEY"].nil?
-
 params = {
-  api_key: ENV["API_KEY"],
+  api_key: "{API_KEY}",
   engine: "google",
   q: "coffee"
 }
