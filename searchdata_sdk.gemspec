@@ -16,8 +16,6 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 3.0.0"
   spec.license       = "MIT"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'https://mygemserver.com'"
-
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/SearchDataAPI/searchdata_sdk"
   spec.metadata["changelog_uri"] = "https://github.com/SearchDataAPI/searchdata_sdk/blob/main/CHANGELOG.md"
