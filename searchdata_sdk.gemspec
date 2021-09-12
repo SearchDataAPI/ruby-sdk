@@ -34,9 +34,9 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
-  spec.add_dependency "dotenv"
-  spec.add_dependency "json"
-  spec.add_dependency "open-uri"
+  spec.add_dependency "dotenv", "~> 2.7.6"
+  spec.add_dependency "json", "~> 2.5.1"
+  spec.add_dependency "open-uri", "~> 0.1.0"
   spec.add_development_dependency "rspec", "~> 3.2"
 
   # For more information and examples about making a new gem, checkout our
