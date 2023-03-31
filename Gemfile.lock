@@ -10,7 +10,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
-    date (3.1.0)
+    date (3.3.3)
     diff-lcs (1.4.4)
     dotenv (2.7.6)
     json (2.5.1)
@@ -51,13 +51,14 @@ GEM
       parser (>= 3.0.1.1)
     ruby-progressbar (1.11.0)
     stringio (3.0.0)
-    time (0.1.0)
+    time (0.2.2)
       date
     unicode-display_width (2.0.0)
     uri (0.10.1)
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   dotenv (~> 2.7.6)
